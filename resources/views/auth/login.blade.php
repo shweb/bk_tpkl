@@ -59,6 +59,10 @@
                                     Login
                                 </button>
 
+                                <a class="btn btn-primary" href="{{ URL::route('auth/facebook') }}">
+                                    Login with facebook
+                                </a>
+
                                 <a class="btn btn-link" href="{{ route('password.request') }}">
                                     Forgot Your Password?
                                 </a>
